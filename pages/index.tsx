@@ -2,6 +2,7 @@ import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+
 import { sanityClient, urlFor } from "../sanity";
 import { Collection } from "../typing";
 
